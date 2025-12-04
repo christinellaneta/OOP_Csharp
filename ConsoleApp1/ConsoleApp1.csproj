@@ -5,6 +5,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <!-- FIX: Explicitly set the startup object to Task1 (within the OOP_Csharp namespace) to resolve the "Multiple entry points" error after renaming Program.cs. -->
+    <StartupObject>ConsoleApp1.Task1</StartupObject> 
   </PropertyGroup>
 
 </Project>

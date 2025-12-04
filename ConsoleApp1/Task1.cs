@@ -1,8 +1,20 @@
-﻿
-class Task1
+﻿using System;
+
+namespace ConsoleApp1
 {
-    static void Main(String[] args)
+    // Task 1: This class contains the single application entry point (Main).
+    public class Task1
     {
-        Console.WriteLine("Kamusta, Mundo!");
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Kamusta, Mundo!");
+            
+            // -----------------------------------------------------------------
+            // Next Task Execution: Dispatching to the next class
+            Console.WriteLine("\n--- Preparing to execute Task 2 logic... ---");
+            Task2.RunTask(); 
+            
+            Console.WriteLine("\n--- All tasks completed. ---");
+        }
     }
 }

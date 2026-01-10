@@ -12,7 +12,8 @@ namespace ConsoleApp1
             Task2.RunTask(); 
             Task3.RunTask();
             Task4.RunTask();
-            
+            Task5.RunTask();
+
             Console.WriteLine("\n--- All tasks completed. ---");
         }
     }

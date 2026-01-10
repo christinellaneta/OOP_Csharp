@@ -8,8 +8,10 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Kamusta, Mundo!");
             
-            Console.WriteLine("\n--- Preparing to execute Task 2 logic... ---");
+            Console.WriteLine("\n--- Preparing to execute Tasks... ---");
             Task2.RunTask(); 
+            Task3.RunTask();
+            Task4.RunTask();
             
             Console.WriteLine("\n--- All tasks completed. ---");
         }
